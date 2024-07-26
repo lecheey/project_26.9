@@ -18,12 +18,15 @@ public:
 int main(){
 	// вводные данные
 	while(true){
-	int n;
-	std::cout << "array size: " << std::endl;
+	int n, m;
+	std::cout << "количество элементов: ";
 	std::cin >> n;
+	
+	std::cout << "количество потоков: ";
+	std::cin >> m;
 
 	// int n = 20; // размер массива
-	int m = 4; // кол-во частей
+	//int m = 4; // кол-во частей
 	std::vector<int> arr{}; // массив
 	
 	// генерация значений массива
